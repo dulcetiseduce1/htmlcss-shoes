@@ -1,0 +1,120 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    top: 20px;
+    transform: scale(1);
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    background-color:antiquewhite;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px 10px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.buttons{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.button{
+   position: absolute;
+   top: 50%;
+   transform: translate(0,-50%);
+}
+
+.first-block{
+    height: 100vh;
+    background-color:red;
+    position: relative;
+}
+
+.second-block{
+    height: 100vh;
+    background-color:green;
+    position: relative;
+}
+
+.third-block{
+    height: 100vh;
+    background-color:yellow;
+    position: relative;
+}
+
+.center-first-image{
+    background-image: url("../img/01.png");
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-second-image{
+    background-image: url("../img/02.png");
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-third-image{
+    background-image: url("../img/03.png");
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    font-size: 30px;
+}
+
+.first-block h1 {
+    color: yellow;
+}
+.second-block h1 {
+    color: yellow;
+}
+.third-block h1 {
+    color: green;
+}
