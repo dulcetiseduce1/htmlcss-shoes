@@ -73,8 +73,8 @@ li{
     background-image: url("../img/01.png");
     background-position: center;
     background-size:cover;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 800px;
     position: absolute;
     top:50%;
     left:50%;
@@ -85,8 +85,8 @@ li{
     background-image: url("../img/02.png");
     background-position: center;
     background-size:cover;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 800px;
     position: absolute;
     top:50%;
     left:50%;
@@ -97,8 +97,8 @@ li{
     background-image: url("../img/03.png");
     background-position: center;
     background-size:cover;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 800px;
     position: absolute;
     top:50%;
     left:50%;
@@ -107,6 +107,7 @@ li{
 
 h1{
     font-size: 30px;
+    text-align: center;
 }
 
 .first-block h1 {
